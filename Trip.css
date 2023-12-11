@@ -1,0 +1,762 @@
+header{
+	width: 100vw;
+	height: 515px;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+    align-items: center;
+	overflow: hidden;
+}
+
+header nav{
+	margin-top: 10px;
+	margin-left: 363px;
+	height: 82px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+header nav .logo{
+	width: 312px;
+    height: 82px;
+    flex-shrink: 0;
+    background: url("https://mblogthumb-phinf.pstatic.net/MjAxODEyMTlfMjQg/MDAxNTQ1MTU1Njg4MzUy.PgBR0NxIe-PqILU0JIf59I-U9NrXWmXP37BC0X1O9UAg.4jn1u4P_0cshoRxASCZqTxQZO4Yh0VBwZu5OHRV2XIAg.PNG.lovemw3/%ED%8A%B8%EB%A6%BD%EC%8A%A4%ED%86%A0%EC%96%B4_%EB%A1%9C%EA%B3%A02.png?type=w800");
+  background-position: center;
+	background-size: cover;
+}
+
+header nav ul{
+	display: flex;
+	list-style: none;
+	gap: 42px;
+}
+header nav a{
+	color: black; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 600; 
+    text-decoration: none;
+}
+header nav .box1 a{
+	color: white; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 600; 
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    background: #167BC8;
+    width: 109px;
+    height: 47px;
+}
+
+.hero{
+  width: 100vw;
+  height: 382px;
+  flex-shrink: 0;
+  background: #167BC8;
+  display: flex;
+  align-items: center;
+  
+}
+
+.ib {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tn {
+  text-align: center; 
+  margin-bottom: 60px;
+}
+
+.tn h1{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+.trip_box{
+  width: 1200px;
+  height: 134px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #F1F3F5;
+  margin-left:auto;
+  margin-right:auto;
+}
+.trip_box .container{
+  width: 1036px;
+  display: flex;
+  gap: 24px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.trip_box .item{
+  flex: 1 0 0;
+  height: 68px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #BCBCBC;
+  background: #F1F3F5;
+  top:33px;
+}
+
+.trip_box .item p{
+  color: #252525;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left:20px;
+}
+
+main{
+  width: 100vw;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.conA .container{
+  width: 1280px;
+  height: 650px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D9F6F3;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.conA .goods{
+  width: 1200px;
+  padding: 10px 20px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D9F6F3;
+  margin-left:auto;
+  margin-right:auto;
+}
+.conA .container h2{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.conA .tabmenu {
+  font-size: 0;
+  text-align: left;
+}
+
+.conA .tabmenu input[type="radio"] {
+  display: none;
+}
+
+.conA .tabmenu label {
+  display: inline-block;
+  width: 97px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 12px;
+  margin-bottom: 66px;
+  background: #D9D9D9;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  color:#fff;
+}
+
+.conA .tabmenu > div {
+  display: none;
+  min-height: 300px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.conA .tabmenu input[type="radio"]:checked + label {
+  background: #167BC8;
+  border-radius: 5px;
+  width: 97px;
+  height: 40px;
+}
+
+.tabmenu #tab1:checked ~ #cont1,
+.tabmenu #tab2:checked ~ #cont2,
+.tabmenu #tab3:checked ~ #cont3,
+.tabmenu #tab4:checked ~ #cont4,
+.tabmenu #tab5:checked ~ #cont5,
+.tabmenu #tab6:checked ~ #cont6{
+  display: block;
+}
+
+.conA .box1{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+
+.conA .product{
+  flex: 1 0 0;
+  height: 360px;
+  flex-shrink: 0;
+  background-color: gray;
+  position: relative;
+  border-radius: 10px;
+}
+
+.imgbox1{
+  width: 285px;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 10px 10px 0px 0px;
+  background: lightgray 50%;
+}
+
+.imgbox1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.textbox1{
+  width: 285px;
+  height: 148px;
+  flex-shrink: 0;border-radius: 0px 0px 10px 10px;
+  background: #FFF;
+  position: relative;
+}
+
+.letter{
+  position: absolute;
+  left: 24px;
+}
+
+.letter h3{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.letter p{
+  color: #FFF;
+  width: 38px;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 4px 10px;
+  border-radius: 10px 0px 10px 10px;
+  background: #167BC8;
+  float:left;
+}
+
+.letter a{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width:200px;
+  position: absolute;
+  bottom:15px;
+  left:165px;
+}
+
+.letter span{
+  color: #72B8ED;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.conA .product .button{
+  display:inline-block;
+  padding: 10px 24px;
+  background-color: #167BC8;
+  position: absolute;
+  bottom: 30px;
+  left: 65px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+}
+.conA .product:nth-child(4){
+  background-image: url("https://img.freepik.com/free-photo/female-tourists-on-hand-have-a-happy-travel-map_1150-7411.jpg?size=626&ext=jpg&ga=GA1.1.502767641.1681663489&semt=sph");
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in 0.1s;
+}
+
+.conA .product:hover{
+  transform: translateY(-8px);
+	box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+}
+
+.conB .container{
+  width: 1280px;
+  height: 650px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #F0EEEC;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:130px;
+}
+
+.conB .goods{
+  width: 1200px;
+  padding: 10px 20px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #F0EEEC;
+  margin-left:auto;
+  margin-right:auto;
+}
+.conB .container h2{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.conB .tabmenu {
+  font-size: 0;
+  text-align: left;
+}
+
+.conB .tabmenu input[type="radio"] {
+  display: none;
+}
+
+.conB .tabmenu label {
+  display: inline-block;
+  width: 97px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 12px;
+  margin-bottom: 66px;
+  background: #D9D9D9;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  color:#fff;
+}
+
+.conB .tabmenu > div {
+  display: none;
+  min-height: 300px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.conB .tabmenu input[type="radio"]:checked + label {
+  background: #167BC8;
+  border-radius: 5px;
+  width: 97px;
+  height: 40px;
+}
+
+.conB .tabmenu #tab1:checked ~ #cont1,
+.conB .tabmenu #tab2:checked ~ #cont2,
+.conB .tabmenu #tab3:checked ~ #cont3,
+.conB .tabmenu #tab4:checked ~ #cont4,
+.conB .tabmenu #tab5:checked ~ #cont5,
+.conB .tabmenu #tab6:checked ~ #cont6
+.conB .tabmenu #tab7:checked ~ #cont7
+.conB .tabmenu #tab8:checked ~ #cont8{
+  display: block;
+}
+
+.conB .box1{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+
+.conB .product{
+  flex: 1 0 0;
+  height: 360px;
+  flex-shrink: 0;
+  background-color: gray;
+  position: relative;
+  border-radius: 10px;
+}
+
+.imgbox2{
+  width: 285px;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 10px 10px 0px 0px;
+  background: lightgray 50%;
+}
+
+.imgbox2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.textbox2{
+  width: 285px;
+  height: 148px;
+  flex-shrink: 0;border-radius: 0px 0px 10px 10px;
+  background: #FFF;
+  position: relative;
+}
+
+.textbox2 .letter{
+  position: absolute;
+  left: 24px;
+}
+
+.textbox2 .letter h3{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.textbox2 .letter p{
+  color: #FFF;
+  width: 38px;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 4px 10px;
+  border-radius: 10px 0px 10px 10px;
+  background: #167BC8;
+  float:left;
+}
+
+.textbox2 .letter a{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width:200px;
+  position: absolute;
+  bottom:17px;
+  left:170px;
+}
+
+.textbox2 .letter span{
+  color: #72B8ED;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.conB .product .button{
+  display:inline-block;
+  padding: 10px 24px;
+  background-color: #167BC8;
+  position: absolute;
+  bottom: 15px;
+  left: 65px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+}
+.conB .product:nth-child(4){
+  background-image: url("https://img.freepik.com/free-photo/minimalistic-bed-with-interior-plant_23-2148723117.jpg?w=740&t=st=1702296573~exp=1702297173~hmac=253bc02365a0e9190a11dbafce0291aa1c411ca1e64a2b94bc317ebb5551e6d5");
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in 0.1s;
+}
+
+.conB .product:hover{
+  transform: translateY(-8px);
+	box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+}
+
+.conC .container{
+  width: 1280px;
+  height: 650px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #F0F4F7;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:130px;
+}
+
+.conC .goods{
+  width: 1200px;
+  padding: 10px 20px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #F0F4F7;
+  margin-left:auto;
+  margin-right:auto;
+}
+.conC .container h2{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.conC .tabmenu {
+  font-size: 0;
+  text-align: left;
+}
+
+.conC .tabmenu input[type="radio"] {
+  display: none;
+}
+
+.conC .tabmenu label {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 12px;
+  margin-bottom: 66px;
+  background: #D9D9D9;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  color:#fff;
+}
+
+.conC .tabmenu > div {
+  display: none;
+  min-height: 300px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.conC .tabmenu input[type="radio"]:checked + label {
+  background: #167BC8;
+  border-radius: 5px;
+  width: 97px;
+  height: 40px;
+}
+
+.conC .tabmenu #tab1:checked ~ #cont1,
+.conC .tabmenu #tab2:checked ~ #cont2,
+.conC .tabmenu #tab3:checked ~ #cont3,
+.conC .tabmenu #tab4:checked ~ #cont4,
+.conC .tabmenu #tab5:checked ~ #cont5,
+.conC .tabmenu #tab6:checked ~ #cont6{
+  display: block;
+}
+
+.conC .box1{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+
+.conC .product{
+  flex: 1 0 0;
+  height: 360px;
+  flex-shrink: 0;
+  background-color: gray;
+  position: relative;
+  border-radius: 10px;
+}
+
+.imgbox3{
+  width: 285px;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 10px 10px 0px 0px;
+  background: lightgray 50%;
+}
+
+.imgbox3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.textbox3{
+  width: 285px;
+  height: 148px;
+  flex-shrink: 0;border-radius: 0px 0px 10px 10px;
+  background: #FFF;
+  position: relative;
+}
+
+.textbox3 .letter{
+  position: absolute;
+  left: 24px;
+}
+
+.textbox3 .letter h3{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.textbox3 .letter p{
+  color: #FFF;
+  width: 38px;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 4px 10px;
+  border-radius: 10px 0px 10px 10px;
+  background: #167BC8;
+  float:left;
+}
+
+.textbox3 .letter a{
+  color: #167BC8;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width:200px;
+  position: absolute;
+  bottom:17px;
+  left:170px;
+}
+
+.textbox3 .letter span{
+  color: #72B8ED;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.conC .product .button{
+  display:inline-block;
+  padding: 10px 24px;
+  background-color: #167BC8;
+  position: absolute;
+  bottom: 15px;
+  left: 65px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+}
+.conC .product:nth-child(4){
+  background-image: url("https://img.freepik.com/free-photo/hat-and-sunglasses-on-car-board_23-2148756461.jpg?w=1380&t=st=1702296416~exp=1702297016~hmac=4d53d520c3f74a26f42730ed42d50c5be079d738e6eefea6bd9644e325e1918b");
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in 0.1s;
+}
+
+.conC .product:hover{
+  transform: translateY(-8px);
+	box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.box {
+width: 100vw;
+height: 252px;
+background: #444444;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box .text {
+width: 1200px;
+display: flex;
+justify-content: space-between;
+}
+
+h1 {
+color: white;
+font-size: 20px;
+font-family: Inter;
+font-weight: 500;
+word-wrap: break-word;
+margin-right: 35px;
+display: inline;
+}
+
+p {
+color: #bdbdbd;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+word-wrap: break-word;
+}

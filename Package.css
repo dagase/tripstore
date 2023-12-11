@@ -1,0 +1,579 @@
+header{
+	width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+    align-items: center;
+	overflow: hidden;
+}
+
+header nav{
+	margin-top: 10px;
+	margin-left: 363px;
+	height: 82px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+header nav .logo{
+	width: 312px;
+    height: 82px;
+    flex-shrink: 0;
+    background: url("https://mblogthumb-phinf.pstatic.net/MjAxODEyMTlfMjQg/MDAxNTQ1MTU1Njg4MzUy.PgBR0NxIe-PqILU0JIf59I-U9NrXWmXP37BC0X1O9UAg.4jn1u4P_0cshoRxASCZqTxQZO4Yh0VBwZu5OHRV2XIAg.PNG.lovemw3/%ED%8A%B8%EB%A6%BD%EC%8A%A4%ED%86%A0%EC%96%B4_%EB%A1%9C%EA%B3%A02.png?type=w800");
+  background-position: center;
+	background-size: cover;
+}
+
+header nav ul{
+	display: flex;
+	list-style: none;
+	gap: 42px;
+}
+header nav a{
+	color: black; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 600; 
+    text-decoration: none;
+}
+header nav .box1 a{
+	color: white; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 600; 
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    background: #167BC8;
+    width: 109px;
+    height: 47px;
+}
+
+.research {
+  width: 100vw;
+  height: 150px;
+  background-color: #167BC8;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.research .box{
+  width: 1200px;
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: #F1F3F5;
+  position: absolute;
+  top: 29px;
+  left:360px;
+}
+
+.research .box p {
+  color: #757575;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  left: 30px;
+}
+
+.hero_image {
+    width: 100vw;
+    height: 412px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(138, 177, 206, 0.20);
+    background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/500000/500680-otaru-canal.jpg");
+	background-position: center;
+	background-size: cover;
+    position: relative;
+}
+
+.cover {
+    width: 100vw;
+    height: 412px;
+    background: rgba(138, 177, 206, 0.20);
+}
+
+.hero{
+	width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 88px;
+    bottom: 88px;
+    position: relative;
+}
+
+.hero h1{
+	color: #FCFDFE;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+	margin-bottom: 24px;
+}
+
+.hero p{
+	color: #FCFDFE;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero a{
+	text-decoration: none;
+	color: #FCFDFE;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    bottom : 0;
+    right: 0;
+}
+
+.place {
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+    margin: 40px auto;
+    height: 300px;
+    margin-top: 130px;
+}
+  
+.spot {
+    flex: 1 0 0;
+    height: 290px;
+    border-radius: 273px;
+    background-color: gray;
+    position: relative;
+}
+  
+.info {
+    display:none;
+    position: absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height: 290px;
+    border-radius: 273px;
+    color: #fff;
+}
+  
+.spot .info h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    left: 105px;
+}
+  
+.spot .info p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    right: 65px;
+}
+  
+.spot:nth-child(1) {
+    background-image: url("https://www.ana.co.jp/japan-travel-planner/seasons/img/image_spring_main.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in 0.1s;
+}
+  
+.spot:nth-child(1):hover {
+    background-image:  url("https://a.cdn-hotels.com/gdcs/production173/d861/c1711b78-8b00-48a1-a622-55364ed70b9d.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+     transform: rotateY(180deg);
+}
+  
+.spot:nth-child(2) {
+    background-image: url("https://www.expedia.co.kr/stories/wp-content/uploads/2022/05/16-17.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in 0.1s;
+}
+  
+.spot:nth-child(2):hover {
+    background-image:  url("https://cdn.lecturernews.com/news/photo/202301/116434_352036_535.jpg");
+     transform: rotateY(180deg);
+}
+  
+.spot:nth-child(3) {
+    background-image: url("https://thumb.tidesquare.com/common_cdn/upload/image/theme/2022/11/04/xndjqltm_xpakrlghlrwjs_qkdzhr_20221104171554.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in 0.1s;
+}
+  
+.spot:nth-child(3):hover {
+    background-image:  url("https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+     transform: rotateY(180deg);
+}
+  
+.spot:nth-child(4) {
+    background-image: url("https://ak-d.tripcdn.com/images/100o0g00000086q2kACC3.jpg?proc=source%2Ftrip");
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in 0.1s;
+}
+  
+.spot:nth-child(4):hover {
+    background-image:  url("https://www.kkday.com/ko/blog/wp-content/uploads/bali_ubud_palace.jpg");
+     transform: rotateY(180deg);
+}
+  
+.spot:hover .info {
+    transform: rotateY(180deg);
+    display:block;
+}
+
+.MD {
+    display: flex;
+    gap: 20px;
+    width: 1200px;
+    height: 550px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+  }
+  
+.MD .title {
+    width: 100%;
+    margin-bottom: 40px;
+}
+    
+.MD .title h1 {
+    color: #167BC8;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+.MD .item{
+    flex: 1 0 0;
+    height: 360px;
+}
+  
+.MD .item .img {
+    width: 285px;
+    height: 226px;
+    flex-shrink: 0;
+    background-color: gray;
+}
+  
+.MD .item .text{
+    width: 285px;
+    height: 226px;
+}
+  
+.MD .item .text h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+.MD .item .text p {
+    color: #808080;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top:-10px;
+}
+  
+.MD .item:hover{
+    text-decoration : underline;
+}
+
+.banner {
+    width: 100vw;
+    height: 210px;
+    flex-shrink: 0;
+    background-color: gray;
+    margin-top: 130px;
+    background-image: url("https://tripbox1.cache.iwinv.net/orgin/6334/Banner/%EB%9D%A0%20%EB%B0%B0%EB%84%88%20%20-%202023-09-19T155540.567.png");
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in 0.1s;
+}
+
+.Europe{
+  width: 1200px;
+  display: flex;
+  height: 550px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 130px;
+}
+
+.Europe .title {
+    width: 100%;
+    margin-bottom: 40px;
+ }
+  
+.Europe .title h1 {
+    color: #167BC8;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+.Europe .item{
+  flex: 1 0 0;
+  height: 360px;
+}
+
+.Europe .item .img {
+  width: 285px;
+  height: 226px;
+  flex-shrink: 0;
+  background-color: gray;
+}
+
+.Europe .item .text{
+  width: 285px;
+  height: 226px;
+}
+
+.Europe .item .text h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Europe .item .text p {
+  color: #808080;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top:-10px;
+}
+
+.Europe .item:hover{
+  text-decoration : underline;
+}
+
+.healing{
+  width: 1200px;
+  display: flex;
+  height: 550px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 130px;
+}
+
+.healing .title {
+    width: 100%;
+    margin-bottom: 40px;
+ }
+  
+.healing .title h1 {
+    color: #167BC8;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+.healing .item{
+  flex: 1 0 0;
+  height: 360px;
+}
+
+.healing .item .img {
+  width: 285px;
+  height: 226px;
+  flex-shrink: 0;
+  background-color: gray;
+}
+
+.healing.item .text{
+  width: 285px;
+  height: 226px;
+}
+
+.healing .item .text h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.healing .item .text p {
+  color: #808080;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top:-10px;
+}
+
+.healing .item:hover{
+  text-decoration : underline;
+}
+
+.hot_spring{
+  width: 1200px;
+  display: flex;
+  height: 550px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 130px;
+}
+
+.hot_spring .title {
+    width: 100%;
+    margin-bottom: 40px;
+ }
+  
+.hot_spring .title h1 {
+    color: #167BC8;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+.hot_spring .item{
+  flex: 1 0 0;
+  height: 360px;
+}
+
+.hot_spring .item .img {
+  width: 285px;
+  height: 226px;
+  flex-shrink: 0;
+  background-color: gray;
+}
+
+.hot_spring .item .text{
+  width: 285px;
+  height: 226px;
+}
+
+.hot_spring .item .text h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hot_spring .item .text p {
+  color: #808080;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top:-10px;
+}
+
+.hot_spring .item:hover{
+  text-decoration : underline;
+}
+
+footer{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height: 100px;
+    margin-top: 130px;
+}
+
+.box {
+  width: 100vw;
+  height: 252px;
+  background: #444444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .text {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-right: 35px;
+  display: inline;
+}
+
+p {
+  color: #bdbdbd;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
